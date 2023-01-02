@@ -1,0 +1,29 @@
+<!--Manipulando imagens responsivas-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexiveis</title>
+</head>
+<body>
+    <h1>Manipulando imagens</h1>
+    <h2>vamos adicinar algumas imagens com a &lt;picture&gt;:</h2>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="img/img-P.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="img/img-M.png" type="image/png">
+        <img src="img/img-G.png" alt="imagem G">
+    </picture><!--Devemos colocar os <sources> do menor para o maior/ sempre colocar no max-width-->
+
+    <h2>vamos reproduzir alguns audios <br> com a tag &lt;audio&gt;:</h2>
+
+    <audio preload="metadata" controls>
+
+        <source src="media/Ice & Fire - King Canyon.mp3" type="audio/mpeg">
+        <!--Podemos adicionar alguns audios com esses codecs/ os formatos mais comuns são MPEG, OGG, WAV-->
+    </audio>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family= Fanwood + Text:ital@0;1 & display=swap');
+@font-face {
+    font-family: Winter;
+    src: url('Winter Snow.otf') format(opentype);
+}
+body{
+    font:italic bold 10px 'Courier new', Courier, monospace;
+}
+
+h1{
+    font-family: 'Winter', serif;
+}

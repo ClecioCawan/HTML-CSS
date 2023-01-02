@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+Um identificador = id (#) só pde ser usado uma vez por documento html.
+
+Uma CLASSE = class (.) pode ser usado várias vezes em um mesmo documento html.
+*/
+
+body{
+    background-color: rgb(7, 21, 21);
+
+}
+
+main{
+    background-color: lightcyan;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+#principal{
+    color: white;
+    background-color: rgb(5, 92, 92);
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgb(5, 92, 92);
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(0, 0, 106);
+}
+
+p{
+    text-align: justify;
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+   color: yellow; 
+}
+
+.avançado{
+    color: red;
+}
