@@ -1,0 +1,57 @@
+<!--BACKGROUND-REPEAT-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>configurando repetições de imagens</title>
+</head>
+<style>
+    div{
+        height: 200px;
+        width: 400px;
+        background-color: lightcyan;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .r1 {
+        background-image: url(img/pattern003\ \(1\).png);
+        background-size: 10%;
+        background-repeat: repeat;
+    }
+    .r2 {
+        background-image: url(img/pattern003\ \(1\).png);
+        background-size: 10%;
+        background-repeat: no-repeat;
+    }
+    .r3 {
+        background-image: url(img/pattern003\ \(1\).png);
+        background-size: 10%;
+        background-repeat: repeat-x;
+    }
+    .r4 {
+        background-image: url(img/pattern003\ \(1\).png);
+        background-size: 10%;
+        background-repeat: repeat-y;
+    }
+
+</style>
+<body>
+    <h1>Configurando repetições com background-repeat.</h1>
+    <hr>
+    <h2>background-repeat: repeat.</h2>
+    <p>Cria uma repetição que é feita automaticamente.</p>
+    <div class="r1"></div>
+    <h2>background-repeat: no-repeat.</h2>
+    <p>Desfaz a repetição , concentrando a imagem no ponto inicial. (left top) </p>
+    <div class="r2"></div>
+    <h2>background-repeat: repeat-x.</h2>
+    <p>Permite que a repetição fique apenas no eixo x.</p>
+    <div class="r3"></div>
+    <h2>background-repeat: repeat-y.</h2>
+    <p>Permite que a repetição fique apenas no eixo y.</p>
+    <div class="r4"></div>
+
+</body>
+</html>

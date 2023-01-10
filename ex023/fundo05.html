@@ -1,0 +1,46 @@
+<!--Centralizando DIVS-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizando contêiners</title>
+    <style>
+        /*Contêiner (DIV) de fora*/
+        .fora{
+            width: 400px;
+            height: 400px;
+            background-color: violet;
+            position: relative;
+            border: 2px solid black;
+        }
+        /*Contêiner (DIV) de dentro*/
+        .dentro{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 0px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            border: 1px solid black;
+            
+        }
+        .dentro > h2{
+            font-size: 16px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Centralizando contêiners</h1>
+    <div class="fora">
+        <div class="dentro">
+            <h2>Texto centralizado</h2>
+        </div>
+    </div>
+</body>
+</html>
