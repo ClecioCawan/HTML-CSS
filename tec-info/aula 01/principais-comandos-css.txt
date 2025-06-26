@@ -1,0 +1,69 @@
+Principais comandos e propriedades do CSS para estilização de sites:
+
+1. Seletores:
+   - * (universal)
+   - .classe
+   - #id
+   - tag (ex: body, h1)
+   - [atributo]
+   - :hover, :active, :focus (pseudo-classes)
+
+2. Propriedades de texto:
+    - color: define a cor do texto.
+      Exemplo: color: red;
+    - font-size: define o tamanho da fonte.
+      Exemplo: font-size: 20px;
+    - font-family: define a família da fonte.
+      Exemplo: font-family: Arial, sans-serif;
+    - font-weight: define o peso (negrito) da fonte.
+      Exemplo: font-weight: bold;
+    - text-align: alinha o texto (left, right, center, justify).
+      Exemplo: text-align: center;
+    - text-decoration: adiciona decoração ao texto (underline, line-through, none).
+      Exemplo: text-decoration: underline;
+    - line-height: define a altura da linha.
+      Exemplo: line-height: 1.5;
+
+3. Propriedades de fundo:
+   - background-color
+   - background-image
+   - background-repeat
+   - background-size
+   - background-position
+
+4. Propriedades de caixa:
+   - width
+   - height
+   - margin
+   - padding
+   - border
+   - box-sizing
+   - display
+   - position (static, relative, absolute, fixed, sticky)
+   - top, right, bottom, left
+   - overflow
+
+5. Flexbox e Grid:
+   - display: flex
+   - flex-direction
+   - justify-content
+   - align-items
+   - gap
+   - display: grid
+   - grid-template-columns
+   - grid-template-rows
+   - grid-gap
+
+6. Outros:
+   - opacity
+   - cursor
+   - transition
+   - transform
+   - z-index
+   - box-shadow
+   - border-radius
+
+Esses são os principais comandos e propriedades usados no CSS para criar layouts e estilizar páginas web.
+
+Para justificar um parágrafo em CSS, utilize a propriedade `text-align` com o valor `justify`. Exemplo:
+

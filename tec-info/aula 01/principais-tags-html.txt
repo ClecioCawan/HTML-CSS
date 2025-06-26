@@ -1,0 +1,37 @@
+Principais tags HTML para criação de sites:
+
+1. <!DOCTYPE html> - Define o tipo de documento e a versão do HTML.
+2. <html> - Elemento raiz de um documento HTML.
+3. <head> - Contém metadados, links para CSS, scripts, título da página, etc.
+4. <title> - Define o título da página exibido na aba do navegador.
+5. <meta> - Define metadados como charset, viewport, descrição, etc.
+6. <link> - Usado para vincular arquivos externos, como CSS.
+7. <body> - Contém todo o conteúdo visível da página.
+8. <header> - Define o cabeçalho da página ou de uma seção.
+9. <nav> - Define uma área de navegação (menus, links).
+10. <main> - Indica o conteúdo principal da página.
+11. <section> - Define seções temáticas do conteúdo.
+12. <article> - Representa um conteúdo independente e auto-contido.
+13. <aside> - Conteúdo lateral, como barras laterais ou informações complementares.
+14. <footer> - Rodapé da página ou de uma seção.
+15. <h1> a <h6> - Títulos e subtítulos, do mais importante (h1) ao menos (h6).
+16. <p> - Parágrafos de texto.
+17. <a> - Links para outras páginas ou recursos.
+18. <img> - Imagens.
+19. <ul>, <ol>, <li> - Listas não ordenadas, ordenadas e itens de lista.
+20. <div> - Container genérico para agrupar elementos.
+21. <span> - Container em linha para estilização ou agrupamento.
+22. <form>, <input>, <button>, <label>, <select>, <textarea> - Elementos de formulários.
+
+Essas são as principais tags utilizadas na estruturação de páginas web em HTML.
+
+23. <strong> - Destaca o texto com importância (negrito).
+24. <em> - Dá ênfase ao texto (itálico).
+25. <b> - Deixa o texto em negrito (sem ênfase semântica).
+26. <i> - Deixa o texto em itálico (sem ênfase semântica).
+27. <mark> - Destaca o texto com marcação.
+28. <small> - Exibe o texto em tamanho menor.
+29. <del> - Indica texto removido (riscado).
+30. <ins> - Indica texto inserido (sublinhado).
+31. <sub> - Texto subscrito.
+32. <sup> - Texto sobrescrito.
