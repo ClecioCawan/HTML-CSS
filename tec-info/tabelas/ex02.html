@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+</head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        
+        .topo {
+            background-color: green;
+            color: white;
+            font-weight: bold;  
+        }
+        th, td {
+            padding: 1px;
+            text-align: center;
+            border-bottom: 1px solid #070000;
+        }
+        tr:hover td {
+            background-color: green;
+            color: white;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 50px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+<body>
+    <thead>
+        <tr>
+            <th colspan="5"> <h2>População dos Estados do Nordeste</h2></th>
+        </tr>
+    </thead>
+    <tbody>
+        <table border="1">
+            <tr class="topo">
+                <td>ID</td>
+                <td>ESTADO</td>
+                <td>SIGLA</td>
+                <td>BANDEIRA</td>
+                <td>POPULACAO IBGE 2022</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ALAGOAS</td>
+                <td>AL</td>
+                <td><img src="img/alagoas.png" alt=""></td>
+                <td>3.127.511</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>BAHIA</td>
+                <td>BA</td>
+                <td><img src="img/bahia.png" alt=""></td>
+                <td>14.136.417</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>CEARÁ</td>
+                <td>CE</td>
+                <td><img src="img/ceara.jpg" alt=""></td>
+                <td>8.791.688</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>MARANHÃO</td>
+                <td>MA</td>
+                <td><img src="img/maranha.png" alt=""></td>
+                <td>6.775.152</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>PARAÍBA</td>
+                <td>PB</td>
+                <td><img src="img/paraiba.png" alt=""></td>
+                <td>4.059.905</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>PERNAMBUCO</td>
+                <td>PE</td>
+                <td><img src="img/pernanbuco.png" alt=""></td>
+                <td>9.616.621</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>PIAUÍ</td>
+                <td>PI</td>
+                <td><img src="img/piaui.png" alt=""></td>
+                <td>3.289.290</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>RIO GRANDE DO NORTE</td>
+                <td>RN</td>
+                <td><img src="img/rio grande.png" alt=""></td>
+                <td>3.622.057</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>SERGIPE</td>
+                <td>SE</td>
+                <td><img src="img/sergipe.png" alt=""></td>
+                <td>2.318.822</td>
+            </tr>
+        </table>
+    </tbody>
+    <tfoot></tfoot>
+</body>
+</html>
