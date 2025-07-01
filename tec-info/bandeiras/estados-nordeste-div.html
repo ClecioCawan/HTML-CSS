@@ -12,83 +12,96 @@
       display: inline-block;
       border-spacing: 0px;
       border-collapse: collapse;
-      /* width: 800px; */
-      background-color: snow;
+      background-color: #bec3bc; /* color3 */
+      color: #000000;
     }
 
     caption {
       border-collapse: collapse;
+      color: #000000;
     }
 
     thead {
-      background-color: rgb(0, 100, 55);
-      color: snow;
+      background-color: #65727a; /* color5 */
+      color: #000000;
     }
 
     tbody {
       font-size: large;
+      color: #000000;
     }
 
     th {
       font-size: 1.25em;
       text-transform: uppercase;
+      color: #000000;
     }
 
     th,
     td,
     caption {
-      border: 1px solid black;
+      border: 1px solid #65727a; /* color5 */
       padding: 8px;
+      color: #000000;
     }
 
-    /* valores PARES > EVEN */
     tr:nth-child(even) {
-      background-color: rgb(212, 253, 239);
-      ;
+      background-color: #8f9a9c; /* color4 */
     }
 
     tbody tr:hover {
-      background-color: rgb(151, 201, 184);
+      background-color: #d7dacf; /* color2 */
     }
-
 
     caption {
       font-size: 1.5em;
       font-weight: 800;
+      color: #000000;
     }
-
-
-
 
     #principal {
       width: 600px;
-      border: 1px solid black;
+      border: 1px solid #65727a; /* color5 */
       border-radius: 25px;
-      /* height: 1000px; */
       margin: 0 auto;
-      background-color: whitesmoke;
+      background-color: #e6e8e3; /* color1 */
       padding: 20px;
+      color: #000000;
+    }
+    @media (max-width: 650px) {
+      #principal {
+      width: 95vw;
+      min-width: 0;
+      padding: 10px;
+      color: #000000;
+      }
+      table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      color: #000000;
+      }
     }
 
     .voltar {
       width: 120px;
       text-align: left;
-      /* margin-left: 50px; */
     }
     
     .voltar a{
       border-radius: 10px;
-      color: white;
-      background-color: darkgreen;
+      color: #bec3bc; /* color3 */
+      background-color: #65727a; /* color5 */
       padding: 10px;
       text-decoration: none;
     }
 
     .voltar a:hover{
-      color: darkgreen;
-      background-color: white;
+      color: #000000; /* color5 */
+      background-color: #bec3bc; /* color3 */
       font-weight: 800;
     }
+   
 
   </style>
 </head>
@@ -100,7 +113,7 @@
     <div class="voltar">
       <a href="index.html">← VOLTAR</a>
     </div>
-    <h1>Estados do Nordeste</h1>
+    <h1 style="color: #000000;">Estados do Nordeste</h1>
     <hr />
     <table>
       <caption>

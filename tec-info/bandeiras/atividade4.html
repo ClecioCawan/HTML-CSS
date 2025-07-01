@@ -6,30 +6,32 @@
     <style>
         body {
             font-family: Times New Roman, Times, serif;
-            background: #fff;
+            background: #e6e8e3; /* color1 */
             margin: 0;
             padding: 0;
         }
         .container {
             max-width: 900px;
             margin: 0 auto;
-            background: #fff;
+            background: #e6e8e3; /* color1 */
             padding: 16px;
         }
         h2 {
             text-align: center;
             font-size: 1.5em;
             margin-top: 16px;
+            color: #000; /* preto */
         }
         .subtitle {
             text-align: center;
             margin-bottom: 16px;
+            color: #000; /* preto */
         }
         .cta-btn {
             display: block;
             margin: 0 auto 24px auto;
-            background: #6fdc8c;
-            color: #1a4d1a;
+            background: #bec3bc; /* color3 */
+            color: #000; /* preto */
             font-weight: bold;
             font-size: 1.2em;
             border: none;
@@ -39,26 +41,28 @@
             transition: background 0.2s;
         }
         .cta-btn:hover {
-            background: #5cc97a;
+            background: #d7dacf; /* color2 */
         }
         
         table {
             width: 100%;
             border-collapse: collapse;
             margin-bottom: 16px;
+            background: #e6e8e3; /* color1 */
         }
         th, td {
-            border: 1px solid #bfc9d1;
+            border: 1px solid #8f9a9c; /* color4 */
             padding: 12px 8px;
             text-align: center;
+            color: #000; /* preto */
         }
         th {
-            background: #e6ecef;
+            background: #d7dacf; /* color2 */
             font-size: 1.2em;
         }
         .plan-btn {
-            background: #a3d6b1;
-            color: #1a4d1a;
+            background: #bec3bc; /* color3 */
+            color: #000; /* preto */
             font-weight: bold;
             border: none;
             border-radius: 16px;
@@ -69,72 +73,115 @@
             width: 90%;
         }
         .plan-btn:hover {
-            background: #8fcfa0;
+            background: #8f9a9c; /* color4 */
+            color: #e6e8e3; /* color1 */
         }
         .row-header {
-            background: #e6ecef;
+            background: #d7dacf; /* color2 */
             font-weight: bold;
             text-align: left;
+            color: #000; /* preto */
         }
         @media (max-width: 700px) {
             .container {
-                padding: 4px;
+            padding: 4px;
             }
             table, th, td {
-                font-size: 0.95em;
+            font-size: 0.95em;
             }
         }
+        .box {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 32px 40px;
+            margin: 32px auto;
+            max-width: 700px;
+            transition: padding 0.3s, max-width 0.3s;
+        }
+
+        @media (max-width: 900px) {
+            .box {
+                max-width: 98%;
+                padding: 24px 8px;
+                margin: 16px auto;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .box {
+                padding: 12px 2px;
+                border-radius: 10px;
+            }
+        }
+        .final {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 1.1em;
+            color: #000;
+            padding: 8px;
+            background: transparent;
+            text-decoration: underline;
+            transition: color 0.2s;
+            border-radius: 8px; 
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Escolha um plano</h2>
-        <div class="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei expedita, aut voluptate perspiciatis architecto accusamus at.
+        <div class="box">
+            <h2>Escolha um plano</h2>
+            <div class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei expedita, aut voluptate perspiciatis architecto accusamus at.
+            </div>
+            <button class="cta-btn">Inicie o seu teste gratuito</button>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>BÁSICO</th>
+                    <th>PADRÃO</th>
+                    <th>AVANÇADO</th>
+                </tr>
+                <tr>
+                    <td class="row-header">Preço mensal</td>
+                    <td>R$ 29,99</td>
+                    <td>R$ 59,99</td>
+                    <td>R$ 139,99</td>
+                </tr>
+                <tr>
+                    <td class="row-header">Características</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td class="row-header">Comercial</td>
+                    <td>1 usuário completo</td>
+                    <td>5 usuários completos</td>
+                    <td>Usuários personalizados</td>
+                </tr>
+                <tr>
+                    <td class="row-header">Usuários ilimitados somente leitura</td>
+                    <td>1.000 visualizações de e-mail</td>
+                    <td>5.000 visualizações de e-mail</td>
+                    <td>Visualizações de e-mail personalizadas</td>
+                </tr>
+                <tr>
+                    <td class="row-header">Contato</td>
+                    <td>5 contatos por cliente</td>
+                    <td>25 contatos por cliente</td>
+                    <td>Contatos ilimitados</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="plan-btn">PLANO BÁSICO</button></td>
+                    <td><button class="plan-btn">PLANO PADRÃO</button></td>
+                    <td><button class="plan-btn">PLANO AVANÇADO</button></td>
+                </tr>
+            </table>
         </div>
-        <button class="cta-btn">Inicie o seu teste gratuito</button>
-        <table>
-            <tr>
-                <th></th>
-                <th>BÁSICO</th>
-                <th>PADRÃO</th>
-                <th>AVANÇADO</th>
-            </tr>
-            <tr>
-                <td class="row-header">Preço mensal</td>
-                <td>R$ 29,99</td>
-                <td>R$ 59,99</td>
-                <td>R$ 139,99</td>
-            </tr>
-            <tr>
-                <td class="row-header">Características</td>
-                <td colspan="3"></td>
-            </tr>
-            <tr>
-                <td class="row-header">Comercial</td>
-                <td>1 usuário completo</td>
-                <td>5 usuários completos</td>
-                <td>Usuários personalizados</td>
-            </tr>
-            <tr>
-                <td class="row-header">Usuários ilimitados somente leitura</td>
-                <td>1.000 visualizações de e-mail</td>
-                <td>5.000 visualizações de e-mail</td>
-                <td>Visualizações de e-mail personalizadas</td>
-            </tr>
-            <tr>
-                <td class="row-header">Contato</td>
-                <td>5 contatos por cliente</td>
-                <td>25 contatos por cliente</td>
-                <td>Contatos ilimitados</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><button class="plan-btn">PLANO BÁSICO</button></td>
-                <td><button class="plan-btn">PLANO PADRÃO</button></td>
-                <td><button class="plan-btn">PLANO AVANÇADO</button></td>
-            </tr>
-        </table>
+    </div>
+    <div class="final">
+        <a href="index.html" style="color: #000; text-decoration: underline; font-size: 1.1em;">&larr; Voltar para o início</a>
     </div>
 </body>
 </html>

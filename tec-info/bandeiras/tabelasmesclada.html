@@ -5,8 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
 </head>
+<style>
+    :root {
+        --color1: #e6e8e3;
+        --color2: #d7dacf;
+        --color3: #bec3bc;
+        --color4: #8f9a9c;
+        --color5: #65727a;
+    }
+
+    body {
+        background: var(--color5);
+        color: #000;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0 1rem;
+    }
+    .container {
+        max-width: 900px;
+        margin: 2rem auto;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 16px rgba(33,60,149,0.10);
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    h1 {
+        color: #000;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--color4);
+        margin: 2rem 0;
+        box-shadow: 0 2px 8px rgba(33,60,149,0.08);
+    }
+
+    th, td {
+        padding: 0.75rem;
+        text-align: left;
+        border: 1px solid var(--color2);
+        color: #000;
+    }
+
+    th {
+        background: var(--color2);
+        color: #000;
+    }
+
+    tr:nth-child(even) td {
+        background: var(--color3);
+        color: #000;
+    }
+
+    tr:nth-child(odd) td {
+        background: var(--color4);
+        color: #000;
+    }
+
+    @media (max-width: 700px) {
+        table, thead, tbody, th, td, tr {
+            display: block;
+        }
+        thead tr {
+            display: none;
+        }
+        tr {
+            margin-bottom: 1rem;
+        }
+        td {
+            position: relative;
+            padding-left: 50%;
+            border: 1px solid var(--color2);
+            color: #000;
+        }
+        td:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 45%;
+            padding-left: 0.75rem;
+            white-space: nowrap;
+            font-weight: bold;
+            color: #000;
+        }
+        tr:nth-child(2) td:nth-child(1):before { content: "ID"; }
+        tr:nth-child(2) td:nth-child(2):before { content: "Produto"; }
+        tr:nth-child(2) td:nth-child(3):before { content: "Quantidade"; }
+        tr:nth-child(2) td:nth-child(4):before { content: "Preço"; }
+        tr:nth-child(3) td:nth-child(1):before { content: "ID"; }
+        tr:nth-child(3) td:nth-child(2):before { content: "Produto"; }
+        tr:nth-child(3) td:nth-child(3):before { content: "Quantidade"; }
+        tr:nth-child(3) td:nth-child(4):before { content: "Preço"; }
+        
+    }
+    .final {
+        background: var(--color3);
+        border-radius: 22px;
+        text-align: center;
+        padding: 10px 20px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        font-size: 1.4em;
+        font-weight: bold;
+        color: var(--color5);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+</style>
 <body>
-    <h1>trabalhando com tabelas</h1>
+    <div class="container"><h1>trabalhando com tabelas</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis mollitia magni laudantium praesentium error, soluta incidunt qui eius corporis distinctio numquam aperiam fuga nobis esse placeat harum aliquam officia quas.
     Ipsa, omnis minima. Optio harum facere reiciendis, suscipit maiores debitis perspiciatis tempora? Perspiciatis, facere repellendus voluptas unde commodi, alias ducimus et, corrupti mollitia eveniet neque odio. Minus non repellendus odio!
     Error, similique nam. Aut asperiores, repudiandae autem magni fugiat culpa nesciunt vero id ex est laboriosam odit nulla ipsa? Illo reiciendis, possimus eum quisquam cupiditate iure nostrum vel rem dolorum!</p>
@@ -41,6 +158,8 @@
             </tr>
             <tr>
                 <td colspan="4">Os melhores precos do agreste alagoano</td>
-    </table>
+    </table></div>
+    <div class="final">
+        <a href="index.html">Voltar para o início</a>
 </body>
 </html>
