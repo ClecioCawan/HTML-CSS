@@ -1,0 +1,257 @@
+/* red header */
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+header h1{
+    margin: 0;
+    font-weight: 700;
+    color: white;
+    font-size: 100px    ;
+    text-align: center;
+}
+/* blue Navegacao */
+
+nav{
+    background-color: #333;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 12px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+    border-right: 1px solid #555;
+    padding-right: 12px;
+}
+
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 4px 0;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+
+
+/* green botoes header */
+
+.botoes {
+    display: flex;
+    justify-content: right;
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.botoes .assine,
+.botoes .entre {
+    padding: 10px 20px;
+    background-color: #007090;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.botoes .assine:hover,
+.botoes .entre:hover {
+    background-color: #00bcd4;
+    color: #222;
+}
+
+
+/* white main   */
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    margin: 30px auto;
+    max-width: 1000px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+/* resposividade */
+@media (max-width: 900px) {
+    main {
+        padding: 25px 10px;
+        max-width: 98vw;
+    }
+    .container {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 2.5em;
+    }
+    .botoes a {
+        font-size: 1.5em;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px 2vw;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    .container {
+        border-radius: 10px;
+        padding: 5px;
+    }
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .botoes {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 8px 0;
+        border-right: none;
+        padding-right: 0;
+    }
+}
+
+body{
+    margin: 0;  
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+span {
+    color: #007090;
+    font-weight: bold;
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/* yellow   footer */
+/* resposividade */
+@media (max-width: 600px) {
+    footer {
+        font-size: 0.95em;
+        border-radius: 0 0 10px 10px;
+        padding: 18px 0 12px 0;
+    }
+    .footer-logo {
+        font-size: 2.5em;
+        justify-content: center;
+    }
+    .footer-links ul {
+        text-align: center;
+    }
+    .footer-links ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .footer-links ul li:not(:last-child)::after {
+        content: "";
+        margin: 0;
+    }
+    .footer-bottom {
+        font-size: 0.85em;
+        margin-top: 10px;
+    }
+}
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 30px 0 20px 0;
+            border-radius: 0 0 20px 20px;
+            font-size: 1.1em;
+            margin-top: 40px;
+            margin: 0 auto;
+        }
+
+        footer a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: #007090;
+        }
+        .footer-links ul{
+            list-style: none;
+            padding: 0;
+            display: block;
+        }
+        .footer-links ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        .footer-links ul li:not(:last-child)::after {
+            content: "|";
+            margin-left: 15px;
+            color: #555;
+        }
+        .footer-logo{
+            display: flex;
+            font-size: 100px;
+        }
+        .footer-bottom{
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        .footer-bottom p{
+            text-align: center;
+        }
