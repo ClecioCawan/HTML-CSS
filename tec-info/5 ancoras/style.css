@@ -179,6 +179,15 @@ p{
     margin: 20px 0;
     text-align: justify;
 }
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+ul li a{
+    color: #007090;
+    text-decoration: none;
+}
 
 /* yellow   footer */
 /* resposividade */
