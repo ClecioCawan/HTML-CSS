@@ -1,0 +1,124 @@
+body {
+    /* background-color: darkgreen; */
+    /* color: white;  */
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, darkgreen, red);
+    padding: 0 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px 20px 10px 30px;
+}
+
+.pizza {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+#menu-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-links a {
+    display: inline-block;
+    width: 150px;
+    background-color: whitesmoke;
+    color: darkgreen;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 0;
+    margin: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+#menu-links a:hover {
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    max-width: 800px;
+    width: 90%;
+    box-sizing: border-box;
+}
+.container h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    align-items: right;
+    padding: 20px;
+}
+
+.formulario input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 10px;
+    
+}   
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(187, 187, 187);
+    padding: 20px;
+    font-weight: bold;
+}
+/* Principais tags de formulário em HTML:
+    - <form>: define o formulário.
+    - <input>: campo de entrada (texto, senha, email, etc).
+    - <textarea>: área de texto multilinha.
+    - <select>: menu suspenso.
+    - <option>: opções dentro do <select>.
+    - <label>: rótulo para campos.
+    - <button>: botão (enviar, resetar, etc).
+    - <fieldset>: agrupa elementos relacionados.
+    - <legend>: legenda para o <fieldset>.
+    - <output>: saída de resultado.
+*/

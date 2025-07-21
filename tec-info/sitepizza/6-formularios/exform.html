@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexs Pizzaria | Entre em contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-ap.svg" type="image/x-icon">
+</head>
+
+<body>
+    
+    <header>
+        <img src="img/logo.png" alt="">
+            <h1>Alexs pizzaria</h1>
+        <div class="pizza"><img src="img/pizza.png" alt=""></div>
+    </header>
+    <nav>
+            <ul id="menu-links">
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Entrar em contato</a></li>
+            </ul>
+            </nav>
+    <main>
+        <div class="container">
+            <h1>Alexs Pizzaria | Entre em contato</h1>
+            <form class="formulario" method="get" >
+                <label for="">primeiro Nome:</label>
+                <input type="text" name="primeiro-nome" id="primeiro-nome" placeholder="Digite seu primeiro nome" required>
+                <br><br>
+                <label for="">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                <br><br>
+                <label for="">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail usuario@provedor.com" required>
+                <br><br>
+                <label for="">senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                <br><br>
+                <label for="">Estado</label>
+                <select name="estado" id="estado" required>
+                    <option value="" ></option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+
+                    
+                <label for="">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+
+                <input type="checkbox" name="notificacoes" id="notificacoes" value="sim">
+                <label for="">Deseja receber notificações?</label>
+                <br><br>
+                <label for="">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        Todos os direitos reservados. Desenvolvido por Clecio Cawan
+    </footer>
+
+</body>
+
+</html>
