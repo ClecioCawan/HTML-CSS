@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexs Pizzaria | Entre em contato</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-ap.svg" type="image/x-icon">
+</head>
+
+<body>
+    
+    <header>
+        <img src="img/pizzaria-top.svg" alt="">
+        <nav>
+            <ul id="menu-links">
+                <li><a href="">Página Inicial</a></li>
+                <li><a href="">Cardápio</a></li>
+                <li><a href="">Entrar em contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="principal">
+        <main>
+            <h1>Alexs Pizzaria | Entre em contato</h1>
+            <form id="formulario-cadastro" method="get">
+                <label for="nome">Primeiro Nome: </label>
+                <input type="text" name="nome" id="nome" required><br><br>
+                
+                <label for="sobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="sobrenome" required><br><br>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" required><br><br>
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="senha" required><br><br>
+
+                <label for="estado">Estado: </label>
+                <select name="estado" id="estado">
+                    <option value=""></option>
+                    <option value="">AL</option>
+                    <option value="">BA</option>
+                    <option value="">CE</option>
+                </select><br><br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="60"></textarea>
+                <br><br>
+
+
+                
+                <input type="submit" value="Enviar Dados"><br>
+                <input type="reset" value="Limpar Dados">
+
+
+
+                <!-- Email e senha -->
+            </form>
+        </main>
+    </div>
+
+    <footer>
+        Todos os direitos reservados. Desenvolvido por Fulaninh@
+    </footer>
+
+</body>
+
+</html>

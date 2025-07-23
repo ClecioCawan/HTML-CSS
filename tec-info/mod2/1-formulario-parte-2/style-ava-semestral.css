@@ -1,0 +1,100 @@
+body {
+    /* background-color: darkgreen;
+    color: white; */
+    margin: 0;
+}
+
+div#home a#p-home,
+div#cardapio a#p-cardapio,
+div#contato a#p-contato,
+div#perguntas a#p-avaliacao
+{
+    background-color: rgb(212, 255, 212);
+}
+
+header {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header img {
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+#menu-links {
+    list-style: none;
+}
+
+#menu-links li {
+    display: inline-block;
+}
+
+#menu-links a {
+    width: 150px;
+    background-color: whitesmoke;
+    color: darkgreen;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#menu-links a:hover {
+    background-color: rgb(212, 255, 212);
+}
+
+#principal {
+    width: 900px;
+    height: 600px;
+    margin: 20px auto;
+}
+
+nav {
+    text-align: center;
+}
+
+#formulario-cadastro{
+    border: 1px solid darkgreen;
+    border-radius: 25px;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+
+#formulario-cadastro input[type="submit"],
+#formulario-cadastro input[type="reset"] {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#formulario-cadastro input{
+    /* width: 450px; */
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#formulario-cadastro label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+#pergunta-modelo label{
+    font-weight: bold;
+}
+
+#principal{
+    height: 100%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(187, 187, 187);
+    padding: 20px;
+    font-weight: bold;
+}
