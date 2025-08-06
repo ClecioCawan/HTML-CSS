@@ -85,13 +85,65 @@ nav {
 }
 #pergunta-modelo label{
     font-weight: bold;
+    text-align: center;
 }
 
 #principal{
     height: 100%;
 }
 
+.box{
+    border: 1px solid darkgreen;
+    border-radius: 25px;
+    padding: 20px;  
+}
+.box label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    background-color: rgb(173, 192, 120);
+}
 
+.IMG40 {
+    width: 500PX;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resp40 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.impt40 {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 350px;
+
+
+}
+
+.box40 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+    gap: 5px;
+
+}
 footer {
     text-align: center;
     background-color: rgb(187, 187, 187);
